@@ -1,0 +1,57 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: darkgray;
+  margin: 0;
+  padding: 20px;
+}
+
+div {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 0.5em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+p:hover {
+  background-color: teal;
+}
+
+.featured-puppy {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: gold;
+}
+
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.puppy-list {
+  margin-top: 20px;
+}
+
+.puppy-name {
+  cursor: pointer;
+  background-color: grey;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.puppy-name:hover {
+  background-color: #dee2e6;
+}
